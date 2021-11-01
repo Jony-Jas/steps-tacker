@@ -1,6 +1,6 @@
 # Steps Tracker
 
-This is a React Native app with which you can track your steps and store them in the database.
+This is a React Native app with which you can track your steps and store the records in the database.
 
 #### To Run this, Clone it and install modules in both directories using
 ```
