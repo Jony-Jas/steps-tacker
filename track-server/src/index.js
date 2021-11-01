@@ -12,8 +12,7 @@ app.use(express.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const MONGO_URI =
-  "mongodb+srv://admin:admin123@cluster0.zitdn.mongodb.net/database?retryWrites=true&w=majority";
+const MONGO_URI = <URL>;
 mongoose.connect(MONGO_URI);
 mongoose.connection.on("connected", () => {
   console.log("Connected to Mongo Instance");
